@@ -8,7 +8,7 @@ import {Extension} from 'resource:///org/gnome/shell/extensions/extension.js';
 import * as PanelMenu from 'resource:///org/gnome/shell/ui/panelMenu.js';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 
-const REFRESH_SECONDS = 30;
+const REFRESH_SECONDS = 10;
 
 const Indicator = GObject.registerClass(
 class Indicator extends PanelMenu.Button {
