@@ -98,4 +98,4 @@ export default class BluetoothBatteryExtension extends Extension {
         this._indicator?.destroy();
         this._indicator = null;
     }
-}
+} 
