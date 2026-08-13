@@ -18,7 +18,7 @@ class Indicator extends PanelMenu.Button {
         this._label = new St.Label({
             text: '',
             y_align: Clutter.ActorAlign.CENTER,
-            style_class: 'bt-battery-label',
+            style: 'padding: 0 8px;',
         });
         this.add_child(this._label);
 
