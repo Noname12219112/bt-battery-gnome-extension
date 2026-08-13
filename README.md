@@ -13,7 +13,18 @@ It reads battery data straight from BlueZ over D-Bus, so there are no external d
 
 ## Requirements
 
-- GNOME Shell 45 or newer
+## Installation
+
+```bash
+git clone https://github.com/YOUR-USERNAME/bt-battery-gnome-extension.git
+cd bt-battery-gnome-extension
+bash install.sh
+```
+
+This copies the extension files into the right GNOME extensions folder and enables it for you.
+
+Then reload GNOME Shell:
+- **Wayland**: log out and log back in- GNOME Shell 45 or newer
 - A Bluetooth device that reports battery level over BlueZ's `org.bluez.Battery1` interface (most modern headphones and peripherals support this — if your device's battery shows up under Settings → Power, it will work here too)
 
 ## Installation
